@@ -1,0 +1,2 @@
+dotnet ef dbcontext scaffold "User ID=ulpfzjrihbfgrz;Password=1374ba0169d5a358be188dba5bf3b782538cdc9faa205324c73f568d15f86845;Host=ec2-52-209-171-51.eu-west-1.compute.amazonaws.com;Database=d7bc6hae5ivsfm;Port=5432;SSL Mode=Require;Trust Server Certificate=true;" Npgsql.EntityFrameworkCore.PostgreSQL -o Models/Generated -c GeneratedDbContext --force --schema dbo --schema enum --no-onconfiguring --no-build
+pause

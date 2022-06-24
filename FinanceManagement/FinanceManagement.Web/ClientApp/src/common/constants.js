@@ -1,0 +1,2 @@
+export const MINIMIZED_LEFT_BAR_WIDTH = 240;
+export const FULL_LEFT_BAR_WIDTH = 400;

@@ -1,0 +1,57 @@
+{
+  "name": "financemanagementapplication",
+  "version": "0.0.1",
+  "description": "CVUT Semestral Work",
+  "productName": "Finance Management Application",
+  "author": "Tikhon Zaikin <th@thevhs.club>",
+  "private": true,
+  "scripts": {
+    "serve": "npm install && quasar dev",
+    "build": "npm install && quasar build",
+    "lint": "eslint --ext .js,.vue ./",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@microsoft/signalr": "7.0.0-preview.2.22153.2",
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.21.1",
+    "babel-jest": "28.0.3",
+    "core-js": "^3.6.5",
+    "quasar": "^2.0.0",
+    "vue-i18n": "^9.0.0",
+    "vuex": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.13.14",
+    "@quasar/app": "^3.0.0",
+    "chromedriver": "101.0.0",
+    "dotenv": "10.0.0",
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-vue": "^7.0.0",
+    "eslint-webpack-plugin": "^2.4.0",
+    "geckodriver": "3.0.1",
+    "jest": "28.0.3",
+    "jest-environment-jsdom": "28.0.2",
+    "nightwatch": "2.1.4",
+    "vue-jest": "3.0.7",
+    "vue-template-compiler": "2.6.14"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}

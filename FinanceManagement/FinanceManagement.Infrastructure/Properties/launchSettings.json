@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FinanceManagement.Infrastructure": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}
